@@ -1,0 +1,140 @@
+.contact {
+  padding: var(--space-md) var(--space-lg) var(--space-xl);
+  background-color: var(--bg-light);
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: var(--transition-fade);
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.headline {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  color: var(--text-on-light);
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+.highlight {
+  color: var(--accent);
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--fs-small);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text-on-light);
+}
+
+.socialIcon {
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+  background-color: var(--color-navy-dark);
+  color: var(--color-white);
+  border-radius: 6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  background-color: var(--color-white);
+  padding: var(--space-lg);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 27, 51, 0.08);
+  max-width: 500px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gray-medium);
+  margin-bottom: 0.5rem;
+}
+
+.input,
+.textarea {
+  border: none;
+  border-bottom: 1px solid var(--color-gray-light);
+  background: transparent;
+  padding: 0.4rem 0;
+  font-family: var(--font-primary);
+  font-size: var(--fs-body);
+  color: var(--text-on-light);
+  outline: none;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-gray-medium);
+}
+
+.input:focus,
+.textarea:focus {
+  border-bottom-color: var(--accent);
+}
+
+.textarea {
+  resize: vertical;
+  padding-bottom: 0;
+  min-height: 1.8rem;
+}
+
+.submit {
+  padding: 1rem;
+  background-color: var(--accent);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: var(--fs-small);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+}
+
+.submit:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

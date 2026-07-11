@@ -1,7 +1,7 @@
 .challenge {
   position: relative;
   padding: var(--space-xl) var(--space-lg);
-  background-color: var(--bg-light);
+  background-color: var(--color-white);
   overflow: hidden;
 }
 
