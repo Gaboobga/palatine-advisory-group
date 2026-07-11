@@ -1,0 +1,43 @@
+:root {
+  /* Colores — Paleta Concepto 1 */
+  --color-navy-darkest: #0F1B33;
+  --color-navy-dark: #1B2A4E;
+  --color-blue-medium: #2E4B9E;
+  --color-blue-bright: #3B5FE0;
+  --color-blue-light: #B8C8F0;
+
+  /* Neutros */
+  --color-white: #FFFFFF;
+  --color-off-white: #F5F6FA;
+  --color-gray-light: #D9DCE3;
+  --color-gray-medium: #8A8F9C;
+  --color-gray-dark: #2C2E33;
+  --color-black: #000000;
+
+  /* Uso semántico (así cambiamos diseño sin tocar cada componente) */
+  --bg-dark: #26326A;
+  --bg-light: var(--color-off-white);
+  --text-on-dark: var(--color-white);
+  --text-on-light: var(--color-gray-dark);
+  --accent: #4570FF;
+
+  /* Tipografía */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --fs-hero: 3rem;
+  --fs-h1: 2.5rem;
+  --fs-h2: 2rem;
+  --fs-h3: 1.5rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+  /* Espaciado */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+
+  /* Transiciones (para las animaciones sutiles) */
+  --transition-fade: opacity 0.6s ease-out, transform 0.6s ease-out;
+}

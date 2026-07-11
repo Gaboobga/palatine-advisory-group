@@ -1,0 +1,63 @@
+.challenge {
+  position: relative;
+  padding: var(--space-xl) var(--space-lg);
+  background-color: var(--bg-light);
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: var(--bg-dark);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  color: var(--text-on-light);
+  margin-bottom: var(--space-md);
+}
+
+.intro {
+  font-size: var(--fs-h3);
+  color: var(--color-gray-medium);
+  margin-bottom: var(--space-md);
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm) var(--space-md);
+}
+
+.listItem {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: var(--fs-body);
+  font-weight: 500;
+  color: var(--text-on-light);
+}
+
+.listItem::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
