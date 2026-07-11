@@ -24,3 +24,11 @@ button {
   border: none;
   background: none;
 }
+
+section[id] {
+  scroll-margin-top: 90px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
