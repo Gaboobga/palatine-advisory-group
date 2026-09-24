@@ -39,10 +39,6 @@ function Founders() {
       >
         <div className={styles.headerRow}>
           <h2 className={styles.headline}>Meet the Founders</h2>
-          <div className={styles.stat}>
-            <span className={styles.statNumber}>60+ Years</span>
-            <span className={styles.statLabel}>Combined Experience</span>
-          </div>
         </div>
 
         <div className={styles.grid}>

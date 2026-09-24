@@ -28,10 +28,18 @@
 }
 
 .subheadline {
-  font-size: var(--fs-h3);
+  font-size: var(--fs-body);
   font-weight: 500;
-  color: var(--accent);
+  color: var(--color-gray-light);
   margin-bottom: var(--space-sm);
+}
+
+.supportingText {
+  font-size: var(--fs-h3);
+  color: var(--accent);
+  max-width: 640px;
+  margin-bottom: var(--space-sm);
+  line-height: 1.6;
 }
 
 .tagline {

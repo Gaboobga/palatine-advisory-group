@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className={styles.footer}>
+    <footer id="footer-contact" className={styles.footer}>
       <div className={styles.top}>
         <p className={styles.tagline}>
           Not Generic Consulting.<br />Real Solutions.
