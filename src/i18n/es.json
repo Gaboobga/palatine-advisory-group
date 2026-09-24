@@ -5,5 +5,18 @@
     "supportingText": "Ayudamos a las empresas a alinear organizaciones financieras, procesos y modelos operativos globales para que el crecimiento se mantenga controlable.",
     "tagline": "No Consultoría Genérica. Soluciones Reales para Empresas en Crecimiento.",
     "cta": "Agendar una Llamada Introductoria"
+  },
+  "challenge": {
+    "headline": "El Crecimiento Crea Oportunidades. El Crecimiento Crea Complejidad.",
+    "supportingText": "Muchas empresas crecen más rápido que sus propias estructuras.",
+    "intro": "Las consecuencias:",
+    "list": [
+      "Falta de transparencia financiera",
+      "Complejidad creciente",
+      "Gobernanza débil",
+      "Procesos ineficientes",
+      "Visibilidad limitada para la dirección",
+      "Transiciones internacionales difíciles"
+    ]
   }
 }

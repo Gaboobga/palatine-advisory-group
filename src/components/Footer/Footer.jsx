@@ -1,4 +1,4 @@
-import logo from '../../assets/logo/The_palatine_advisory_group.svg';
+import logo from '../../assets/logo/The_palatine_advisory_group_white.svg';
 import styles from './Footer.module.css';
 
 function Footer() {

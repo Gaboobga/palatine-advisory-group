@@ -5,5 +5,18 @@
     "supportingText": "We help companies align finance organizations, processes, and global operating models so that growth stays under control.",
     "tagline": "Not Generic Consulting. Real Solutions for Growing Companies.",
     "cta": "Schedule an Introductory Call"
+  },
+  "challenge": {
+    "headline": "Growth Creates Opportunity. Growth Creates Complexity.",
+    "supportingText": "Many companies grow faster than their structures.",
+    "intro": "The consequences:",
+    "list": [
+      "Lack of financial transparency",
+      "Increasing complexity",
+      "Weak governance",
+      "Inefficient processes",
+      "Limited management visibility",
+      "Difficult international transitions"
+    ]
   }
 }

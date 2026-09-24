@@ -27,10 +27,16 @@
   margin-bottom: var(--space-md);
 }
 
-.intro {
+.supportingText {
   font-size: var(--fs-h3);
   color: var(--color-gray-medium);
   margin-bottom: var(--space-md);
+}
+
+.intro {
+  font-size: var(--fs-body);
+  color: var(--color-gray-medium);
+  margin-bottom: var(--space-sm);
 }
 
 .list {

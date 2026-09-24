@@ -1,17 +1,10 @@
 import { useScrollOverlay } from '../../hooks/useScrollOverlay';
+import { useTranslation } from '../../hooks/useTranslation';
 import styles from './Challenge.module.css';
-
-const CHALLENGES = [
-  'Lack of financial transparency',
-  'Increasing complexity',
-  'Weak governance',
-  'Inefficient processes',
-  'Limited management visibility',
-  'Difficult international transitions',
-];
 
 function Challenge() {
   const [sectionRef, progress] = useScrollOverlay(0.6);
+  const { t } = useTranslation();
 
   const overlayOpacity = 1 - progress;
   const contentOpacity = progress;
@@ -27,16 +20,14 @@ function Challenge() {
           transform: `translateY(${(1 - contentOpacity) * 15}px)`,
         }}
       >
-        <h2 className={styles.headline}>
-          Growth Creates Opportunity. Growth Creates Complexity.
-        </h2>
+             <h2 className={styles.headline}>{t('challenge.headline')}</h2>
 
-        <p className={styles.intro}>
-          Rapid growth often creates challenges such as:
-        </p>
+        <p className={styles.supportingText}>{t('challenge.supportingText')}</p>
+
+        <p className={styles.intro}>{t('challenge.intro')}</p>
 
         <ul className={styles.list}>
-          {CHALLENGES.map((item) => (
+          {t('challenge.list').map((item) => (
             <li key={item} className={styles.listItem}>
               {item}
             </li>
