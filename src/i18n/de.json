@@ -18,5 +18,27 @@
       "ERP- und Systemlandschaften stoßen an ihre Grenzen",
       "Globale Betriebsmodelle werden zur strategischen Notwendigkeit"
     ]
+  },
+    "services": {
+    "headline": "Was wir tun",
+    "closingStatement": "Damit Wachstum nicht zu Komplexität wird, schaffen wir Transparenz, Kontrolle und die organisatorischen Strukturen für die nächste Unternehmensstufe.",
+    "items": [
+      {
+        "title": "Finanzielle Transparenz & Steuerbarkeit",
+        "summary": "Verlässliche Entscheidungsgrundlagen für nachhaltiges Wachstum."
+      },
+      {
+        "title": "Skalierbare Organisation & Governance",
+        "summary": "Prozesse, Verantwortlichkeiten und Systeme für die nächste Unternehmensstufe."
+      },
+      {
+        "title": "Performance & Wirtschaftlichkeit",
+        "summary": "Transparenz über Werttreiber, Kosten und Profitabilität."
+      },
+      {
+        "title": "Shared Services & Globale Betriebsmodelle",
+        "summary": "Zugang zu Fachkräften, Skalierbarkeit und erfolgreichen internationalen Transitions."
+      }
+    ]
   }
 }

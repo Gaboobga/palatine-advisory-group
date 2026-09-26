@@ -18,5 +18,27 @@
       "Visibilidad limitada para la dirección",
       "Transiciones internacionales difíciles"
     ]
+  },
+    "services": {
+    "headline": "Qué Hacemos",
+    "closingStatement": "Para que el crecimiento no se convierta en complejidad, creamos transparencia, control y las estructuras organizacionales para la siguiente etapa de la empresa.",
+    "items": [
+      {
+        "title": "Transparencia y Control Financiero",
+        "summary": "Bases confiables para la toma de decisiones que sostienen el crecimiento."
+      },
+      {
+        "title": "Organización y Gobernanza Escalable",
+        "summary": "Procesos, responsabilidades y sistemas para la siguiente etapa de la empresa."
+      },
+      {
+        "title": "Desempeño y Rentabilidad",
+        "summary": "Transparencia sobre los generadores de valor, costos y rentabilidad."
+      },
+      {
+        "title": "Shared Services y Modelos Operativos Globales",
+        "summary": "Acceso a talento especializado, escalabilidad y transiciones internacionales exitosas."
+      }
+    ]
   }
 }

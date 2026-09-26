@@ -18,5 +18,27 @@
       "Limited management visibility",
       "Difficult international transitions"
     ]
+  },
+    "services": {
+    "headline": "What We Do",
+    "closingStatement": "So that growth doesn't turn into complexity, we create transparency, control, and the organizational structures for your company's next stage.",
+    "items": [
+      {
+        "title": "Financial Transparency & Control",
+        "summary": "Reliable decision-making foundations for sustainable growth."
+      },
+      {
+        "title": "Scalable Organization & Governance",
+        "summary": "Processes, responsibilities, and systems for the next stage of your company."
+      },
+      {
+        "title": "Performance & Profitability",
+        "summary": "Transparency over value drivers, costs, and profitability."
+      },
+      {
+        "title": "Shared Services & Global Operating Models",
+        "summary": "Access to specialized talent, scalability, and successful international transitions."
+      }
+    ]
   }
 }
